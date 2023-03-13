@@ -1,4 +1,6 @@
-
+/**
+ * 
+ */
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -10,6 +12,10 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
 //needs massive aesthetic rewrites
+/**
+ * 
+ * @author Usuario
+ */
 public class PlayerSelectScreen extends JPanel {
 
     JButton go;
@@ -29,7 +35,9 @@ public class PlayerSelectScreen extends JPanel {
         mw.s4.setUpPlayers();
         mw.showCard("Three");
     }
-
+/***
+ * 
+ */
     public void playerOptions() {
         int m = 5;
         if (opt1.isSelected() == true) {
@@ -41,7 +49,10 @@ public class PlayerSelectScreen extends JPanel {
         }
         mw.s4.setMaxPlayers(m);
     }
-
+    /***
+     * 
+     * @param mw MainWindow
+     */
     public PlayerSelectScreen(MainWindow mw) {
         this.mw = mw;
 

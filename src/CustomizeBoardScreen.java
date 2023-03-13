@@ -21,7 +21,10 @@ public class CustomizeBoardScreen extends JPanel {
     public void goButtonActionListener() {
         mw.showCard("Four");
     }
-
+/**
+ * 
+ * @param mw MainWindow
+ */
     public CustomizeBoardScreen(MainWindow mw) {
         this.mw = mw;
 
